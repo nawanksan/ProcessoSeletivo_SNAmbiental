@@ -16,6 +16,7 @@ class EmpresaViewSet(viewsets.ModelViewSet):
     
     serializer_class = serializers.EmpresaSerializers
     queryset = models.Empresa.objects.all()
+    pagination_class = PageNumberPagination
     
     
      # II Consultar por CNPJ

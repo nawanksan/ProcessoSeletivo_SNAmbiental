@@ -11,4 +11,5 @@ class EnderecoViewSet(viewsets.ModelViewSet):
         
     serializer_class = serializers.EnderecoSerializers
     queryset = models.Endereco.objects.all()
+    pagination_class = PageNumberPagination
     

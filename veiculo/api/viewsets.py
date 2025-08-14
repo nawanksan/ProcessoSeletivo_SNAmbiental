@@ -11,3 +11,4 @@ class VeiculoViewSet(viewsets.ModelViewSet):
         
     serializer_class = serializers.VeiculoSerializers
     queryset = models.Veiculo.objects.all()
+    pagination_class = PageNumberPagination
