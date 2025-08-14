@@ -8,9 +8,9 @@ class Empresa(models.Model):
     vCnpj = models.CharField(max_length=14, unique=True)
     vEmail = models.CharField(max_length=40)
     vObservacao = models.CharField(max_length=200, blank=True, null=True)
-    iCod_endereco = models.ForeignKey(
+    iCod_endereco = models.OneToOneField(
         Endereco,
-        on_delete=models.CASCADE
+        on_delete=models.CASCADE, unique=True
     )
     
     def __str__(self):

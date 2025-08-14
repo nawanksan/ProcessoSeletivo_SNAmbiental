@@ -60,6 +60,6 @@ class EmpresaViewSet(viewsets.ModelViewSet):
         nome = request.query_params.get('nome')
         
         if nome:
-            empresa = Empresa.objects.filter(vNome_fantasia_icontains=nome)
-            return Response(self.get_serializer(empresa, mny=True).data)
+            empresa = Empresa.objects.filter(vNome_fantasia__icontains=nome)
+            return Response(self.get_serializer(empresa, many=True).data)
         return Response({"detail": "Nome não fornecido"}, status=status.HTTP_400_BAD_REQUEST)
