@@ -13,7 +13,7 @@ Este projeto é uma API desenvolvida em **Django REST Framework** para gerenciam
 4. Implemente os verbos `POST`, `PUT`, `GET` e `DELETE` para as 3 entidades.
 5. Adicione **paginação** em todas as consultas.
 6. Armazene os dados no banco criado (em container ou local).
-7. Utilizar um mecanismo para popular tabelas será considerado um diferencial.
+7. Utilizar um mecanismo para popular tabelas
 
 ---
 
@@ -42,8 +42,7 @@ Este projeto é uma API desenvolvida em **Django REST Framework** para gerenciam
 ### 1️⃣ Clonar o repositório
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <NOME_DO_PROJETO>
+git clone https://github.com/nawanksan/ProcessoSeletivo_SNAmbiental.git
 ```
 - Extraia o arquivo
 - Entre na pasta do projeto
@@ -59,7 +58,7 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 ```
-### 3️⃣ Instalar Dependências
+### 3️⃣ Instalar dependências
 ```bash
 pip install -r requirements.txt
 ```
@@ -164,7 +163,6 @@ python manage.py runserver
 | Criar Empresa         | POST       | `/empresa/`        | Cria uma nova empresa com os dados enviados no corpo da requisição. |
 | Recuperar Detalhe     | GET        | `/empresa/{id}/`   | Retorna os detalhes de uma empresa específica. |
 | Atualizar (completo)  | PUT        | `/empresa/{id}/`   | Atualiza todos os dados de uma empresa. |
-| Atualizar (parcial)   | PATCH      | `/empresa/{id}/`   | Atualiza apenas os campos fornecidos. |
 | Deletar Empresa       | DELETE     | `/empresa/{id}/`   | Remove uma empresa específica. |
 
 ### Agradecimentos
