@@ -1,0 +1,68 @@
+[
+  {
+    "model": "empresa.empresa",
+    "fields": {
+      "vNome_fantasia": "TechSolutions Inovação",
+      "vNome_razao_social": "TechSolutions Inovação S.A.",
+      "vCnpj": "01234567000101",
+      "vEmail": "contato@techsolutions.com",
+      "vObservacao": "Empresa de tecnologia e consultoria.",
+      "iCod_endereco": 1
+    }
+  },
+  {
+    "model": "empresa.empresa",
+    "fields": {
+      "vNome_fantasia": "AgroVerde",
+      "vNome_razao_social": "AgroVerde Comércio e Representação Ltda",
+      "vCnpj": "08765432000188",
+      "vEmail": "vendas@agroverde.com.br",
+      "vObservacao": "Distribuidora de produtos agrícolas.",
+      "iCod_endereco": 2
+    }
+  },
+  {
+    "model": "empresa.empresa",
+    "fields": {
+      "vNome_fantasia": "Moda & Estilo",
+      "vNome_razao_social": "Moda & Estilo Confecções Ltda",
+      "vCnpj": "11223344000155",
+      "vEmail": "sac@modaeestilo.com",
+      "vObservacao": "Indústria e varejo de vestuário feminino.",
+      "iCod_endereco": 3
+    }
+  },
+  {
+    "model": "empresa.empresa",
+    "fields": {
+      "vNome_fantasia": "Construtora Padrão",
+      "vNome_razao_social": "Construtora Padrão e Empreendimentos S.A.",
+      "vCnpj": "99887766000122",
+      "vEmail": "contato@construtorapadrao.com",
+      "vObservacao": "Empresa focada em projetos residenciais de alto padrão.",
+      "iCod_endereco": 4
+    }
+  },
+  {
+    "model": "empresa.empresa",
+    "fields": {
+      "vNome_fantasia": "Logística Rápida",
+      "vNome_razao_social": "Logística Rápida Transportes e Cargas Ltda",
+      "vCnpj": "55667788000111",
+      "vEmail": "comercial@logistica-rapida.com",
+      "vObservacao": "Serviços de transporte e distribuição para todo o país.",
+      "iCod_endereco": 5
+    }
+  },
+  {
+    "model": "empresa.empresa",
+    "fields": {
+      "vNome_fantasia": "Clínica Bem-Estar",
+      "vNome_razao_social": "Clínica Bem-Estar Serviços Médicos Ltda",
+      "vCnpj": "44332211000177",
+      "vEmail": "financeiro@clinica-bemestar.com",
+      "vObservacao": "Clínica especializada em saúde e bem-estar, com foco em fisioterapia e nutrição.",
+      "iCod_endereco": 6
+    }
+  }
+]
