@@ -1,0 +1,110 @@
+[
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Ford Fusion",
+      "vPlaca": "ABC1234",
+      "nValor": 95000.00,
+      "iCod_empresa": 1
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Toyota Corolla",
+      "vPlaca": "DEF5678",
+      "nValor": 110000.00,
+      "iCod_empresa": 1
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Chevrolet S10",
+      "vPlaca": "GHI9012",
+      "nValor": 185000.00,
+      "iCod_empresa": 2
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Volkswagen Saveiro",
+      "vPlaca": "JKL3456",
+      "nValor": 75000.00,
+      "iCod_empresa": 2
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Renault Kwid",
+      "vPlaca": "MNO7890",
+      "nValor": 55000.00,
+      "iCod_empresa": 3
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Fiat Mobi",
+      "vPlaca": "PQR1234",
+      "nValor": 60000.00,
+      "iCod_empresa": 3
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Scania R450",
+      "vPlaca": "STU5678",
+      "nValor": 450000.00,
+      "iCod_empresa": 4
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Volvo FH540",
+      "vPlaca": "VWX9012",
+      "nValor": 520000.00,
+      "iCod_empresa": 4
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Mercedes-Benz Sprinter",
+      "vPlaca": "YZA3456",
+      "nValor": 150000.00,
+      "iCod_empresa": 5
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Iveco Daily",
+      "vPlaca": "BCD7890",
+      "nValor": 130000.00,
+      "iCod_empresa": 5
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Honda Civic",
+      "vPlaca": "EFG1234",
+      "nValor": 125000.00,
+      "iCod_empresa": 6
+    }
+  },
+  {
+    "model": "veiculo.veiculo",
+    "fields": {
+      "vDesc_veiculo": "Hyundai Creta",
+      "vPlaca": "HIJ5678",
+      "nValor": 105000.00,
+      "iCod_empresa": 6
+    }
+  }
+]
