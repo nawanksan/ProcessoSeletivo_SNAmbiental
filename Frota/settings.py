@@ -86,6 +86,7 @@ DATABASES = {
         'HOST': '127.0.0.1', # host local
         'PORT': '3306',  # porta padrão do MySQL
     }
+    
 }
 
 
