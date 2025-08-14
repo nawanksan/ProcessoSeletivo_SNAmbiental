@@ -1,0 +1,62 @@
+[
+  {
+    "model": "endereco.endereco",
+    "fields": {
+      "vLogradouro": "Avenida Paulista",
+      "vComplemento": "Conjunto 1500",
+      "vBairro": "Bela Vista",
+      "vNumero": "1345",
+      "cUF": "SP"
+    }
+  },
+  {
+    "model": "endereco.endereco",
+    "fields": {
+      "vLogradouro": "Rua Augusta",
+      "vComplemento": null,
+      "vBairro": "Consolação",
+      "vNumero": "2500",
+      "cUF": "PI"
+    }
+  },
+  {
+    "model": "endereco.endereco",
+    "fields": {
+      "vLogradouro": "Rua 25 de Março",
+      "vComplemento": "Loja 10",
+      "vBairro": "Centro Histórico de São Paulo",
+      "vNumero": "800",
+      "cUF": "SP"
+    }
+  },
+  {
+    "model": "endereco.endereco",
+    "fields": {
+      "vLogradouro": "Avenida Brasil",
+      "vComplemento": "Bloco C",
+      "vBairro": "Jardim América",
+      "vNumero": "400",
+      "cUF": "RJ"
+    }
+  },
+  {
+    "model": "endereco.endereco",
+    "fields": {
+      "vLogradouro": "Rua da Alfândega",
+      "vComplemento": null,
+      "vBairro": "Centro",
+      "vNumero": "321",
+      "cUF": "RJ"
+    }
+  },
+  {
+    "model": "endereco.endereco",
+    "fields": {
+      "vLogradouro": "Rua de abril",
+      "vComplemento": null,
+      "vBairro": "santa luzia",
+      "vNumero": "2463",
+      "cUF": "PI"
+    }
+  }
+]
