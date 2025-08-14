@@ -82,7 +82,7 @@ DATABASES = {
 ```
 ### 5️⃣ Execute as migrações
 ```bash
-python manage.py makemigratios
+python manage.py makemigrations
 python manage.py migrate
 ```
 ### 6️⃣ Povoe o banco de dados
@@ -137,6 +137,9 @@ python manage.py runserver
 ---
 
 ### **Consultas Específicas**
+- **OBS: onde tiver {}, remova e adicione somente o atributo:**
+  Exemplo: `/empresa/{id}/com-veiculos/` depois `/empresa/1/com-veiculos/`
+  
 - **Consultar por CNPJ:**  
   `GET /empresa/cnpj/{cnpj}/`  
   Exemplo: `/empresa/cnpj/12345678000199/`
