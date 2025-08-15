@@ -66,20 +66,6 @@ pip install -r requirements.txt
 ```bash
 docker-compose up -d
 ```
-- O banco será inciado na porta 3306 com as credenciais configuradas no setting.py
-- configure o banco de dados MySQL:
-```bash
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'frota',  # nome do banco
-        'USER': 'root',   # usuário do MySQL
-        'PASSWORD': 'sua_senha', # senha do usuário
-        'HOST': '127.0.0.1', # host local
-        'PORT': '3306',  # porta padrão do MySQL
-    }
-}
-```
 ### 5️⃣ Execute as migrações
 ```bash
 python manage.py makemigrations
