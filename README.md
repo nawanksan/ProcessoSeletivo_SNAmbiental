@@ -120,12 +120,12 @@ python manage.py runserver
 /token/
 ```
 <img width="1277" height="763" alt="image" src="https://github.com/user-attachments/assets/c2502f74-a565-4492-8337-4d66e4b6a707" />
-
-- Autenticação
+- copie  **access** que é o token
   
 <img width="1019" height="343" alt="image" src="https://github.com/user-attachments/assets/4ddcabf4-8aa6-4483-b922-45ffa330f7b0" />
 
-- Agora é só testar
+- No Authorization, na esquerda coloque a opção **Bearer Token** e cole no campo **Token** o Token
+- **Agora é só testar**
 
 ## 📌 Rotas Disponíveis
 
@@ -167,6 +167,8 @@ python manage.py runserver
 | Recuperar Detalhe     | GET        | `/empresa/{id}/`   | Retorna os detalhes de uma empresa específica. |
 | Atualizar (completo)  | PUT        | `/empresa/{id}/`   | Atualiza todos os dados de uma empresa. |
 | Deletar Empresa       | DELETE     | `/empresa/{id}/`   | Remove uma empresa específica. |
+
+---
 
 ### Agradecimentos
 Agradeço sinceramente pela oportunidade de participar do processo seletivo e de poder desenvolver este projeto como teste.
