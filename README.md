@@ -43,9 +43,8 @@ Este projeto é uma API desenvolvida em **Django REST Framework** para gerenciam
 
 ```bash
 git clone https://github.com/nawanksan/ProcessoSeletivo_SNAmbiental.git
+cd ProcessoSeletivo_SNAmbiental
 ```
-- Extraia o arquivo
-- Entre na pasta do projeto
   
 ### 2️⃣ Criar e ativar o ambiente virtual
 - Windows
@@ -66,6 +65,7 @@ pip install -r requirements.txt
 ```bash
 docker-compose up -d
 ```
+> Atenção: Certifique-se de que as configurações de `DATABASES` no `settings.py` estão iguais às do `docker-compose.yml`
 ### 5️⃣ Execute as migrações
 ```bash
 python manage.py makemigrations
@@ -89,6 +89,8 @@ python manage.py loaddata veiculo/fixtures/veiculo.json
 python manage.py createsuperuser
 ```
 - Crie seu usuario para obter o token no Postman
+> Use as credenciais criadas para autenticar e obter o token no Postman.
+Exemplo de payload:
 ``` bash
 {
     "username": "admin",
