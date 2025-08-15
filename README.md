@@ -112,7 +112,9 @@ python manage.py runserver
 <img width="1019" height="343" alt="image" src="https://github.com/user-attachments/assets/4ddcabf4-8aa6-4483-b922-45ffa330f7b0" />
 
 - No Authorization, na esquerda coloque a opção **Bearer Token** e cole no campo **Token** o Token
+  
 - **Agora é só testar**
+- O token tem um tempo, então caso der erro, faça login novamente e copie o token novamente
 
 ## 📌 Rotas Disponíveis
 
