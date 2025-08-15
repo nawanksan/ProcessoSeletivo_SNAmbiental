@@ -120,7 +120,8 @@ python manage.py runserver
 /token/
 ```
 <img width="1277" height="763" alt="image" src="https://github.com/user-attachments/assets/c2502f74-a565-4492-8337-4d66e4b6a707" />
-- copie  **access** que é o token
+
+- copie **access** que é o token
   
 <img width="1019" height="343" alt="image" src="https://github.com/user-attachments/assets/4ddcabf4-8aa6-4483-b922-45ffa330f7b0" />
 
